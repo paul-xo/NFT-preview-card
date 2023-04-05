@@ -23,9 +23,9 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshots/active%20states.png.jpg)
-![](./screenshots/desktop%20view.png.png.jpg)
-![](./screenshots/mobile%20view.png.png.jpg)
+![active-state](./screenshots/active%20states.png.jpg)
+![desktop-view](./screenshots/desktop%20view.png.png.jpg)
+![mobile-view](./screenshots/mobile%20view.png.png.jpg)
 
 ### Links
 
