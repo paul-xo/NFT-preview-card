@@ -23,16 +23,14 @@ Users should be able to:
 
 ### Screenshot
 
-![active-state](./screenshots/active%20states.png.jpg)
-![desktop-view](./screenshots/desktop%20view.png.png.jpg)
-![mobile-view](./screenshots/mobile%20view.png.png.jpg)
+- Active State: [active-state](./screenshots/active%20states.png.jpg)
+- Desktop View: [desktop-view](./screenshots/desktop%20view.png.png.jpg)
+- Mobile view: [mobile-view](./screenshots/mobile%20view.png.png.jpg)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
-
-## My process
+- Solution URL: [View solution URL](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U/hub)
+- Live Site URL: [View Live site URL](https://nft-cardd.pages.dev/)
 
 ### Built with
 
