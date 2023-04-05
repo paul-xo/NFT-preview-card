@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+:root {
+  --Soft-blue: hsl(215, 51%, 70%);
+  --Cyan: hsl(178, 100%, 50%);
+
+  --Very-dark-blue-main-BG: hsl(217, 54%, 11%);
+  --Very-dark-blue-card-BG: hsl(216, 50%, 16%);
+  --Very-dark-blue-line: hsl(215, 32%, 27%);
+  --White: hsl(0, 0%, 100%);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: var(--Very-dark-blue-main-BG);
+}
+.card {
+  width: 370px;
+  background: var(--Very-dark-blue-card-BG);
+  padding: 1.5rem;
+  border-radius: 20px;
+  margin: 5rem;
+}
+.img {
+  position: relative;
+}
+.img img {
+  width: 100%;
+  border-radius: 10px;
+}
+.img:hover .view {
+  display: flex;
+  cursor: pointer;
+}
+.view {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 99%;
+  background: hsla(178, 100%, 50%, 0.5);
+  border-radius: 10px;
+}
+.view > img {
+  opacity: 100%;
+  width: 15%;
+  display: block;
+}
+.txts h1 {
+  color: var(--White);
+  margin-top: 1rem;
+}
+.txts h1 b:hover {
+  color: var(--Cyan);
+  cursor: pointer;
+}
+.txts > p {
+  color: var(--Very-dark-blue-line);
+  margin-top: 1rem;
+  font-size: 18px;
+}
+.icons {
+  display: flex;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+  align-items: center;
+}
+.eth-icon {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+.eth-icon p {
+  color: var(--Cyan);
+  font-size: 18px;
+}
+.time {
+  display: flex;
+  gap: 0.5rem;
+  margin-left: auto;
+  align-items: center;
+}
+.time p {
+  color: var(--Very-dark-blue-line);
+  font-size: 18px;
+}
+.line {
+  height: 1px;
+  width: 100%;
+  background: var(--Very-dark-blue-line);
+  margin-bottom: 1rem;
+}
+.avatar {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.avatar img {
+  width: 10%;
+  border: white 10px;
+  border: 2px solid white;
+  border-radius: 50%;
+}
+.avatar p {
+  color: var(--Very-dark-blue-line);
+  font-size: 18px;
+}
+.avatar p b {
+  color: var(--White);
+}
+.avatar p b:hover {
+  color: var(--Cyan);
+  cursor: pointer;
+}
+
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
